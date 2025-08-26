@@ -7,7 +7,6 @@
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-3.0+-38B2AC?style=for-the-badge&logo=tailwind-css)](https://tailwindcss.com/)
 [![Framer Motion](https://img.shields.io/badge/Framer%20Motion-Latest-FF6B6B?style=for-the-badge&logo=framer)](https://www.framer.com/motion/)
 
-
 ## 📋 Table of Contents
 
 - [Features](#-features)
@@ -25,6 +24,7 @@
 ## ✨ Features
 
 ### 🎨 **Visual Excellence**
+
 - **Glassmorphism UI** with modern blur effects and transparency
 - **Dark/Light Mode** toggle with smooth transitions
 - **Micro-interactions** that delight users
@@ -32,6 +32,7 @@
 - **Responsive design** that works on all devices
 
 ### 🚀 **Performance & Animations**
+
 - **Framer Motion** powered animations with 60fps performance
 - **Lazy loading** for images and components
 - **Optimized bundle** size with Next.js 14+ App Router
@@ -39,6 +40,7 @@
 - **Progressive loading** states
 
 ### 📱 **Interactive Components**
+
 - **Animated project cards** with hover states
 - **Modal dialogs** with rich project details
 - **Tech stack badges** with color coding
@@ -46,6 +48,7 @@
 - **Timeline animations** for experience section
 
 ### 🔧 **Developer Experience**
+
 - **TypeScript** for type safety
 - **ESLint & Prettier** for code quality
 - **Modular architecture** for easy maintenance
@@ -55,26 +58,29 @@
 ## 🛠️ Tech Stack
 
 ### **Frontend Framework**
+
 - **Next.js 14+** - React framework with App Router
 - **TypeScript** - Type-safe JavaScript
 - **React 18** - Latest React with concurrent features
 
 ### **Styling & UI**
+
 - **Tailwind CSS** - Utility-first CSS framework
 - **shadcn/ui** - High-quality React components
 - **Framer Motion** - Production-ready motion library
 - **Lucide Icons** - Beautiful & consistent icons
 
 ### **Development Tools**
+
 - **ESLint** - Code linting
 - **Prettier** - Code formatting
 - **Husky** - Git hooks
 - **PostCSS** - CSS processing
 
-
 ## 🚀 Quick Start
 
 ### Prerequisites
+
 - **Node.js** 18.0 or higher
 - **npm** or **yarn** package manager
 - **Git** for version control
@@ -82,12 +88,14 @@
 ### Installation
 
 1. **Clone the repository**
+
    ```bash
-   git clone https://github.com/aman-singh78/portfolio-nextjs.git
-   cd portfolio-nextjs
+   git clone https://github.com/aman-singh78/Portfolio-new.git
+   cd Portfolio-new
    ```
 
 2. **Install dependencies**
+
    ```bash
    npm install
    # or
@@ -97,16 +105,20 @@
    ```
 
 3. **Set up environment variables**
+
    ```bash
    cp .env.example .env.local
    ```
+
    Edit `.env.local` with your configuration:
+
    ```env
    NEXT_PUBLIC_SITE_URL=http://localhost:3000
    NEXT_PUBLIC_GOOGLE_ANALYTICS_ID=your-ga-id
    ```
 
 4. **Run the development server**
+
    ```bash
    npm run dev
    # or
@@ -169,6 +181,7 @@ portfolio-nextjs/
 ### Adding New Projects
 
 1. **Edit the projects data** in `src/lib/constants.ts`:
+
    ```typescript
    export const projects = [
      {
@@ -181,12 +194,12 @@ portfolio-nextjs/
        technologies: ["React", "TypeScript", "Tailwind"],
        keyResults: [
          { icon: "TrendingUp", text: "50% performance improvement" },
-         { icon: "Users", text: "10k+ active users" }
+         { icon: "Users", text: "10k+ active users" },
        ],
        highlights: ["Feature 1", "Feature 2", "Feature 3"],
        liveUrl: "https://your-project.com",
-       sourceUrl: "https://github.com/username/project"
-     }
+       sourceUrl: "https://github.com/username/project",
+     },
    ];
    ```
 
@@ -197,19 +210,20 @@ portfolio-nextjs/
 ### Customizing Colors & Theme
 
 1. **Edit Tailwind configuration** in `tailwind.config.js`:
+
    ```javascript
    module.exports = {
      theme: {
        extend: {
          colors: {
            primary: {
-             50: '#your-color-50',
+             50: "#your-color-50",
              // ... other shades
-           }
-         }
-       }
-     }
-   }
+           },
+         },
+       },
+     },
+   };
    ```
 
 2. **Update CSS variables** in `src/app/globals.css`:
@@ -264,6 +278,7 @@ portfolio-nextjs/
 - **Time to Interactive**: <3.5s
 
 ### Optimization Features
+
 - Image optimization with Next.js Image component
 - Automatic code splitting
 - Prefetching for faster navigation
@@ -290,6 +305,7 @@ Contributions are welcome! Here's how you can help:
 5. **Open a Pull Request**
 
 ### Development Guidelines
+
 - Follow the existing code style
 - Write meaningful commit messages
 - Add tests for new features
@@ -310,12 +326,13 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📬 Contact & Support
 
-- **Portfolio**: [View Portfolio](https://portfolio-sandy-seven-32.vercel.app/)
+- **Portfolio**: [View Portfolio]()
 - **GitHub**: [@aman-singh78](https://github.com/aman-singh78)
 - **Email**: amansinghthapa33@gmail.com
 - **LinkedIn**: [Aman Singh Thapa](https://www.linkedin.com/in/aman-singh-thapa-1ba056373/)
 
 ### Get Help
+
 - 🐛 **Bug Reports**: [Create an issue](https://github.com/aman-singh78/portfolio/issues)
 - 💡 **Feature Requests**: [Start a discussion](https://github.com/aman-singh78/portfolio/discussions)
 - 📖 **Documentation**: [Visit the Wiki](https://github.com/aman-singh78/portfolio/wiki)
