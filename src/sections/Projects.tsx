@@ -34,17 +34,22 @@ import {
 import aiInterviewImage from "@/assets/images/ai_interview.png";
 import jobImage from "@/assets/images/job.png";
 import yogaImage from "@/assets/images/Yoga.png";
-import snypse from '../assets/images/snypse.png';
+import snypse from "../assets/images/snypse.png";
 
-import { EnhancedProjectCardProps, Project, ProjectModalProps, Result } from "./types";
-
+import {
+  EnhancedProjectCardProps,
+  Project,
+  ProjectModalProps,
+  Result,
+} from "./types";
 
 const portfolioProjects: Project[] = [
   {
     company: "Full-Stack Development",
     year: "2025",
     title: "Online Job Portal",
-    shortDescription: "Full-stack job portal with automated job postings and applications",
+    shortDescription:
+      "Full-stack job portal with automated job postings and applications",
     description:
       "Developed a full-stack job portal for 200+ users with automated job postings, applications, and 35% faster hiring efficiency. Integrated secure authentication, role-based access, real-time search, and optimized API endpoints with server-side caching.",
     results: [
@@ -153,7 +158,7 @@ const portfolioProjects: Project[] = [
       },
     ],
     link: "https://synapse-frontend-beryl.vercel.app/",
-    github: "https://github.com/aman-singh78/synapse-frontend-1",
+    github: "https://github.com/aman-singh78/synapse-frontend",
     image: snypse,
     tags: [
       "Next.js",
@@ -209,7 +214,7 @@ const portfolioProjects: Project[] = [
       },
     ],
     link: "https://ai-interview-liart-five.vercel.app/",
-    github: "https://github.com/aman-singh78",
+    github: "https://github.com/aman-singh78/InterviewAce",
     image: aiInterviewImage,
     tags: ["Python", "VAPI", "React", "OpenAI", "Gemini", "NLP"],
     featured: true,
@@ -293,9 +298,7 @@ const ProjectModal = ({ project, isOpen, onClose }: ProjectModalProps) => {
 
               {project.featured && (
                 <div className="absolute top-6 left-6">
-                  <div
-                    className="bg-gradient-to-r from-amber-500 to-orange-500 rounded-full p-3 shadow-xl"
-                  >
+                  <div className="bg-gradient-to-r from-amber-500 to-orange-500 rounded-full p-3 shadow-xl">
                     <Star className="w-5 h-5 text-white fill-white" />
                   </div>
                 </div>
@@ -447,7 +450,11 @@ const ProjectModal = ({ project, isOpen, onClose }: ProjectModalProps) => {
                   href={project.github}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className={project.link && project.link.trim() !== "" ? "flex-1" : "w-full"}
+                  className={
+                    project.link && project.link.trim() !== ""
+                      ? "flex-1"
+                      : "w-full"
+                  }
                   whileHover={{ scale: 1.02 }}
                   whileTap={{ scale: 0.98 }}
                 >
@@ -494,9 +501,7 @@ const EnhancedProjectCard = ({ project, index }: EnhancedProjectCardProps) => {
 
           {project.featured && (
             <div className="absolute top-4 right-4">
-              <div
-                className="bg-gradient-to-r from-amber-500 to-orange-500 rounded-full p-2 shadow-xl backdrop-blur-sm"
-              >
+              <div className="bg-gradient-to-r from-amber-500 to-orange-500 rounded-full p-2 shadow-xl backdrop-blur-sm">
                 <Star className="w-4 h-4 text-white fill-white" />
               </div>
             </div>

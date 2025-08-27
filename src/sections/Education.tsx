@@ -29,7 +29,7 @@ const Education: FC = () => {
       id: 2,
       institution: "St. Lawrence School, Haldwani",
       degree: "Higher Secondary Certificate (XII)",
-      period: "Mar 2020 - Jun 2022",
+      period: "Mar 2021 - Jun 2022",
       grade: "90.6%",
       description:
         "Completed higher secondary education with focus on Science and Computer Science. Built foundational knowledge in Mathematics, Physics, Chemistry, and Computer Programming that supported transition to engineering studies.",
@@ -41,7 +41,7 @@ const Education: FC = () => {
       id: 3,
       institution: "New BeerSheba Senior Secondary School, Pithoragarh",
       degree: "Secondary School Certificate (X)",
-      period: "April 2012 - March 2020",
+      period: "April 2019 - March 2020",
       grade: "93%",
       description:
         "Completed secondary education with strong performance across all subjects. Developed fundamental analytical and problem-solving skills that laid the groundwork for future technical pursuits.",
